@@ -474,7 +474,9 @@ export const trigger = (dict: Dictionary): GJsObject => {
  */
 export const trigger_function = (cb: (group: any) => void): any => {
     const oldContext = Context.current;
-    const newContext = new Context(crypto.randomUUID(), true);
+    // Explicitly call unknown_g() to ensure proper coordination with unknown_g calls
+    const generatedGroup = unknown_g();
+    const newContext = new Context(crypto.randomUUID(), true, generatedGroup);
     cb(newContext.group);
     Context.set(oldContext);
     return newContext.group;

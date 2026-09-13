@@ -321,3 +321,4 @@ const blocking_trigger_fn = (func) => {
 };
 exports.blocking_trigger_fn = blocking_trigger_fn;
 exports.default = core_1.$;
+// make sure to update `../safe` (NOT `../safe.js`) to prevent issues

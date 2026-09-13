@@ -327,7 +327,9 @@ exports.trigger = trigger;
  */
 const trigger_function = (cb) => {
     const oldContext = Context.current;
-    const newContext = new Context(crypto_1.default.randomUUID(), true);
+    // Explicitly call unknown_g() to ensure proper coordination with unknown_g calls
+    const generatedGroup = (0, exports.unknown_g)();
+    const newContext = new Context(crypto_1.default.randomUUID(), true, generatedGroup);
     cb(newContext.group);
     Context.set(oldContext);
     return newContext.group;

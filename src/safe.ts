@@ -224,3 +224,5 @@ export type {
 };
 
 export default $;
+
+// make sure to update `../safe` (NOT `../safe.js`) to prevent issues
