@@ -17,7 +17,7 @@ import {
     camera_offset, camera_static, camera_zoom, camera_mode, camera_rotate, camera_edge, song, teleport, move_trigger, timewarp, color_trigger, toggle_on_trigger, toggle_off_trigger, hide_player, gradient, random, advanced_random, gravity, options, end, player_control, particle_system, spawn_particle,
     shader_layers, shader_layer, sepia, hue_shift, grayscale, pixelate, chromatic, glitch, bulge, split_screen,
     keyframe_system, particle_props, events, log, LevelReader, SingleLevelReader,
-    trigger, object, trigger_function, group, color, range, Context, level, ignore_context_change, hsv, speed,
+    trigger, object, trigger_function, group, color, block, range, Context, level, ignore_context_change, hsv, speed,
     animations, obj_ids, blocking_trigger_fn, while_loop, rgb, rgba, reverse,
     unknown_g, unknown_c, unknown_b, obj_props, wait,
     $group, $color, $block, levelstring
@@ -38,7 +38,7 @@ const publicApi = {
     camera_offset, camera_static, camera_zoom, camera_mode, camera_rotate, camera_edge, song, teleport, move_trigger, timewarp, color_trigger, toggle_on_trigger, toggle_off_trigger, hide_player, gradient, random, advanced_random, gravity, options, end, player_control, particle_system, spawn_particle,
     shader_layers, shader_layer, sepia, hue_shift, grayscale, pixelate, chromatic, glitch, bulge, split_screen,
     keyframe_system, particle_props, events, log, LevelReader, SingleLevelReader,
-    trigger, object, trigger_function, group, color, range, Context, level, ignore_context_change, hsv, speed,
+    trigger, object, trigger_function, group, color, block, range, Context, level, ignore_context_change, hsv, speed,
     animations, obj_ids, blocking_trigger_fn, while_loop, rgb, rgba, reverse,
     unknown_g, unknown_c, unknown_b, $, extract, levelstring, obj_props,
     wait
@@ -61,7 +61,7 @@ export {
     camera_offset, camera_static, camera_zoom, camera_mode, camera_rotate, camera_edge, song, teleport, move_trigger, timewarp, color_trigger, toggle_on_trigger, toggle_off_trigger, hide_player, gradient, random, advanced_random, gravity, options, end, player_control, particle_system, spawn_particle,
     shader_layers, shader_layer, sepia, hue_shift, grayscale, pixelate, chromatic, glitch, bulge, split_screen,
     keyframe_system, particle_props, events, log, LevelReader, SingleLevelReader,
-    trigger, object, trigger_function, group, color, range, Context, level, ignore_context_change, hsv, speed,
+    trigger, object, trigger_function, group, color, block, range, Context, level, ignore_context_change, hsv, speed,
     animations, obj_ids, blocking_trigger_fn, while_loop, rgb, rgba, reverse,
     unknown_g, unknown_c, unknown_b, $, extract, levelstring, obj_props, wait,
     $group, $color, $block

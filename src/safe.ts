@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 import {
-    $, trigger, Context, trigger_function, group_fn as group, color_fn as color, object, hsv,
+    $, trigger, Context, trigger_function, group_fn as group, color_fn as color, block_fn as block, object, hsv,
     unknown_g, unknown_c, unknown_b, extract, level, ignore_context_change, speed, range,
     obj_props,
     $group, $color, $block,
@@ -211,7 +211,7 @@ export {
     camera_offset, camera_static, camera_zoom, camera_mode, camera_rotate, camera_edge, song, teleport, move_trigger, timewarp, color_trigger, toggle_on_trigger, toggle_off_trigger, hide_player, gradient, random, advanced_random, gravity, options, end, player_control, particle_system, spawn_particle,
     shader_layers, shader_layer, sepia, hue_shift, grayscale, pixelate, chromatic, glitch, bulge, split_screen,
     keyframe_system, particle_props, events, log, LevelReader, SingleLevelReader,
-    trigger, object, trigger_function, group, color, range, Context, level, ignore_context_change, hsv, speed,
+    trigger, object, trigger_function, group, color, block, range, Context, level, ignore_context_change, hsv, speed,
     animations, obj_ids, blocking_trigger_fn, while_loop, rgb, rgba, reverse,
     unknown_g, unknown_c, unknown_b, extract, exportConfig, $, obj_props,
     $group, $color, $block,
