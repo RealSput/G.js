@@ -31,5 +31,19 @@
     "typedoc-plugin-pages": "^1.1.0",
     "typedoc-material-theme": "^1.4.1",
     "typescript": "^5.0.0"
+  },
+  "overrides": {
+    "brace-expansion": {
+      "brace-expansion": "5.0.9"
+    },
+    "minimatch": {
+      "brace-expansion": "5.0.9"
+    },
+    "typedoc": {
+      "brace-expansion": "5.0.9"
+    },
+    "typedoc-material-theme": {
+      "brace-expansion": "5.0.9"
+    }
   }
 }
